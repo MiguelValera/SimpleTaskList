@@ -14,6 +14,7 @@
 		44A69E7B288EA13000B37614 /* TaskListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A69E7A288EA13000B37614 /* TaskListTests.swift */; };
 		44A69E85288EA13000B37614 /* TaskListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A69E84288EA13000B37614 /* TaskListUITests.swift */; };
 		44A69E87288EA13000B37614 /* TaskListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A69E86288EA13000B37614 /* TaskListUITestsLaunchTests.swift */; };
+		44A69E96288EA28600B37614 /* DataStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44A69E95288EA28600B37614 /* DataStorage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		44A69E80288EA13000B37614 /* TaskListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44A69E84288EA13000B37614 /* TaskListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListUITests.swift; sourceTree = "<group>"; };
 		44A69E86288EA13000B37614 /* TaskListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		44A69E95288EA28600B37614 /* DataStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStorage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				44A69E69288EA12F00B37614 /* TaskListApp.swift */,
 				44A69E6B288EA12F00B37614 /* ContentView.swift */,
+				44A69E95288EA28600B37614 /* DataStorage.swift */,
 				44A69E6D288EA13000B37614 /* Assets.xcassets */,
 				44A69E6F288EA13000B37614 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44A69E96288EA28600B37614 /* DataStorage.swift in Sources */,
 				44A69E6C288EA12F00B37614 /* ContentView.swift in Sources */,
 				44A69E6A288EA12F00B37614 /* TaskListApp.swift in Sources */,
 			);
